@@ -2,7 +2,7 @@
 
 * Студент: [Анна Кокиева](https://up.htmlacademy.ru/htmlcss-individual/2/user/2654361).
 * Наставник: [Александр Лесухин](https://htmlacademy.ru/profile/caneklis).
-
+* Сайт: [Мой проект «Седона»](https://anna-irbis.github.io/2654361-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
