@@ -17,11 +17,11 @@
 
 
 body {
- font-family: "PT Sans", sans-serif;
- font-size: 18px;
- line-height: 21px;
- color: #000000;
- background-color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 /* Блок с навигацией */
@@ -48,7 +48,7 @@ body {
   background-color: #756157;
   font-size: 16px;
   font-style: normal;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0;
@@ -74,7 +74,7 @@ body {
   background-color: #ffffff;
   font-size: 30px;
   font-style: normal;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0;
@@ -88,7 +88,7 @@ body {
   color: #000000;
   background-color: #ffffff;
   text-align: center;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -141,7 +141,7 @@ body {
 .infrastructure-list {
   color: #000000;
   text-align: center;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -153,7 +153,7 @@ body {
   color: #333;
   font-size: 18px;
   font-style: normal;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   line-height: 21px;
   text-transform: none;
@@ -165,7 +165,7 @@ body {
   color: #000000;
   background-color: #ffffff;
   text-align: center;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -177,7 +177,7 @@ body {
   color: #000000;
   font-size: 22px;
   font-style: normal;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   text-align: center;
   font-weight: 400;
   line-height: 26px;
@@ -189,7 +189,7 @@ body {
   background-color: #756157;
   font-size: 20px;
   font-style: normal;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0;
@@ -203,16 +203,16 @@ body {
   color: #ffffff;
   background-color: #82b3d3;
   background-image: url("../images/substrate-subscribe.png");
-  background-size: 100% auto;
   background-repeat: no-repeat;
   text-align: center;
-  }
+  background-size: cover;
+}
 
 .subscribe-title {
   color: #fff;
   font-size: 30px;
   font-style: normal;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
@@ -222,7 +222,7 @@ body {
   color: #fff;
   font-size: 22px;
   font-style: normal;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   line-height: 26px;
   text-transform: none;
@@ -232,23 +232,21 @@ body {
   color: #ffffff;
   font-size: 18px;
   font-style: normal;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   width: 452px;
   height: 52px;
   text-align: center;
   text-transform: none;
-  overflow: hidden;
 }
 
 .button-subscribe {
-  color: #82b3d3;
-  background-color: tomato;
+  color: #fff;
+  background-color: #82B3D3;
   font-size: 20px;
   font-style: normal;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0;
   text-transform: uppercase;
 }
 
@@ -258,9 +256,233 @@ body {
   color: #000;
   font-size: 40px;
   font-style: normal;
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   line-height: 40px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+/* Страница каталога */
+/* Гостиницы Седоны: фильтр */
+
+.catalog-header {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  background-image: url("../images/substrate-filter.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.breadcrumbs-item {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: none;
+}
+
+/* Инфраструктура, чекбоксы, множественный выбор + Тип жилья, радиокнопки, единственный выбор*/
+
+.catalog-filter-title {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: none;
+}
+
+.control-label {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Фильтр стоимости: поля для ввода нижней и верхней границы, бегунок */
+
+.catalog-filter-title {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: none;
+}
+
+.filter-price-range {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+}
+
+.catalog-filter-submit {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.catalog-filter-reset {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+/* Результаты поиска */
+
+.catalog {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase
+}
+
+.select-control-text {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: none;
+}
+
+/* Каталог гостиниц: карточки */
+
+.product-card-link {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.product-card-type {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: none;
+}
+
+.product-card-cost {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: none;
+}
+
+.product-card-button-about {
+  color: #fff;
+  background-color: #756157;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.add-button-favorite {
+  color: #fff;
+  background-color: #82B3D3;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.icon-star {
+  width: 100%;
+  overflow: hidden;
+  max-width: 18px;
+}
+
+.product-card-reiting {
+  color: #333;
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 140px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+/* Рассылка catalog*/
+
+.subscribe-catalog {
+  color: #ffffff;
+  text-align: center;
+}
+
+.pagination-current {
+  color: #000;
+  background-color: #F2F2F2;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.pagination-link {
+  color: #fff;
+  background-color: #82B3D3;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.pagination-points {
+  color: #000;
+  background-color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: none;
 }
