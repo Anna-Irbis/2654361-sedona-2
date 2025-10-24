@@ -17,6 +17,7 @@
 
 html {
   height: 100%;
+  background-color: #f2f2f2;
 }
 
 body {
@@ -29,7 +30,8 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
-  height: 100%;
+  width: 1200px;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.2);
 }
 
 .main-container {
@@ -46,7 +48,7 @@ body {
 .page-header {
   color: #000000;
   background-color: #ffffff;
-  height: 1200px;
+  flex-grow: 1;
 }
 
 .navigation {
@@ -65,6 +67,13 @@ body {
 .navigation-user {
   max-width: 320px;
   margin-left: auto;
+  list-style-type: none;
+}
+
+.navigation-user-link {
+  text-decoration: none;
+  text-transform: none;
+  color: #000000;
 }
 
 .visually-hidden {
@@ -86,6 +95,13 @@ body {
 .navigation-link {
   text-decoration: none;
   text-transform: none;
+  color: #000000;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans",sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
 }
 
 .footer-social-link {
@@ -156,7 +172,6 @@ body {
 .advantages-item-container {
   display: flex;
   width: 1200px;
-  height: 385px;
   margin: 0 auto;
 }
 
@@ -172,7 +187,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 385px;
 }
 
 .advantages-item {
@@ -182,7 +196,6 @@ body {
 .advantages-item-blue {
   background-color: #82b3d3;
   width: 1200px;
-  height: 385px;
   text-align: center;
   flex-direction: column;
   margin: 0;
@@ -194,7 +207,6 @@ body {
 .advantages-item-square, .advantages-item-tourism {
   background-color: #f0f6fa;
   width: 400px;
-  height: 385px;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -203,7 +215,6 @@ body {
 .advantages-item-road {
   background-color: #e7f0f6;
   width: 400px;
-  height: 385px;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -212,7 +223,6 @@ body {
 .infrastructure-item-burger {
   background-color: #ffffff;
   width: 400px;
-  height: 385px;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -221,7 +231,6 @@ body {
 .infrastructure-item-hotel, .infrastructure-item-gift {
   background-color: #f0f6fa;
   width: 400px;
-  height: 385px;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -236,7 +245,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 400px;
-  height: 385px;
   display: flex;
   flex-direction: column;
 }
