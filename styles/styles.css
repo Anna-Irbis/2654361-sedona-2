@@ -58,10 +58,33 @@ body {
 }
 
 .navigation-list {
-  width: 620px;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding: 32px;
+  max-width: 350px;
   list-style-type: none;
+}
+
+.navigation-item{
+  width: 100%;
+  display: flex;
+  padding: 20px 16px;
+  max-width: 114px;
+  box-sizing: border-box;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navigation-user-item {
+  width: 100%;
+  display: flex;
+  max-width: 44px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: auto;
 }
 
 .navigation-user {
@@ -122,8 +145,13 @@ body {
   width: 160px;
   height: 36px;
   margin-left: 20px;
+  text-decoration: none;
 }
 
+.navigation-user  {
+  margin-left: 20px;
+  width: 160px;
+}
 
 /* Приветственный блок */
 
@@ -165,6 +193,20 @@ body {
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.slogan {
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: none;
   margin: 0;
   padding: 0;
 }
@@ -259,26 +301,61 @@ body {
   text-align: center;
 }
 
-
-.advantages-desc {
-  margin: 0;
-  color: #000;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 12px;
-  text-align: center;
-  text-transform: none;
-  padding: 0 85;
-}
-
-.advantages-title {
-  color: #000;
+.advantages-title-blue {
+  color: #fff;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
   text-align: center;
   padding: 0 112.5;
+}
+
+.advantages-desc-blue {
+  margin: 0;
+  color: #fff;
+  font-family: "PT Sans",sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: none;
+  padding: 0 85;
+}
+
+.advantages-title-square, .advantages-title-road, .advantages-title-tourism {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "PT Sans",sans-serif;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.advantages-desc-square, .advantages-desc-road, .advantages-desc-tourism {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "PT Sans",sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Приезжайте */
+
+.invitation {
+  color: #333;
+  font-size: 22px;
+  font-style: normal;
+  font-family: "PT Sans",sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 /* Приглашение и инфраструктура */
@@ -356,6 +433,7 @@ body {
   width: 376px;
   height: 52px;
   margin: 0;
+  text-decoration: none;
 }
 
 /* Рассылка */
@@ -387,20 +465,33 @@ body {
   font-size: 22px;
   font-style: normal;
   font-family: "PT Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 26px;
   text-transform: none;
 }
 
 .subscribe-form {
-  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-field-label {
+  width: 100%;
+  max-width: 452px;
+}
+
+.subscribe-field {
+  padding: 14px 20px;
+  width: 100%;
+  color: #000;
   font-size: 18px;
   font-style: normal;
-  font-family: "PT Sans", sans-serif;
-  width: 452px;
-  height: 52px;
-  text-align: center;
+  font-family: "PT Sans",sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
   text-transform: none;
+  border-radius: 4px 0 0 4px;
 }
 
 .button-subscribe {
@@ -413,13 +504,19 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   margin: 0;
+  max-width: 232px;
+  border-radius: 0 4px 4px 0;
+  width: 100%;
 }
+
 
 /* Подвал */
 
 .page-footer {
-  margin: 0;
   display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .footer-social {
@@ -452,6 +549,12 @@ body {
   text-decoration: none;
   text-align: center;
   margin: 0;
+}
+
+.footer-contacts {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
 }
 
 /* Страница каталога */
