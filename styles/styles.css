@@ -189,12 +189,12 @@ body {
   background-color: #68a2ca;
 }
 
-.footer-social-icon:active  {
+.footer-social-icon:active {
   background-color: #82b3d3;
 }
 
 .footer-social-icon:disabled {
-  background-color:  #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .header-button {
@@ -219,12 +219,15 @@ body {
 .header-button:hover {
   background-color: #615048;
 }
+
 .header-button:focus {
   background-color: #615048;
 }
+
 .header-button:active {
   color: #756157;
 }
+
 .header-button:disabled {
   background-color: #E5E5E5;
 }
@@ -315,9 +318,6 @@ body {
   background-color: #82b3d3;
 }
 
-
-
-
 .advantages-item h3 {
   color: #fff;
   font-weight: 700;
@@ -327,6 +327,17 @@ body {
   text-align: center;
   margin: 0;
   margin-bottom: 62px;
+}
+
+.advantages-item h3::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  background-color: rgba(255,255,255,0.3);
+  bottom: -140px;
+  left: 50%;
+  transform: translateX(-50%)
 }
 
 .advantages-item p {
@@ -340,12 +351,6 @@ body {
   text-transform: none;
 }
 
-
-
-
-
-
-
 .advantages-item-light-blue h3,
 .advantages-item-blue h3 {
   color: #000;
@@ -357,6 +362,7 @@ body {
   margin: 0;
   margin-bottom: 62px;
 }
+
 
 .advantages-item-light-blue p,
 .advantages-item-blue p {
@@ -551,12 +557,15 @@ body {
 .search-button:hover {
   background-color: #615048;
 }
+
 .search-button:focus {
   background-color: #615048;
 }
+
 .search-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
+
 .search-button:disabled {
   background-color: #E5E5E5;
 }
@@ -654,12 +663,12 @@ body {
   background-color: #68a2ca;
 }
 
-.button-subscribe:active  {
+.button-subscribe:active {
   background-color: #82b3d3;
 }
 
 .button-subscribe:disabled {
-  background-color:  #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 
@@ -723,9 +732,11 @@ body {
 .footer-phone:hover {
   color: #756157;
 }
+
 .footer-phone:focus {
   color: #000;
 }
+
 .footer-phone:active {
   color: #d6d0cd;
 }
@@ -798,7 +809,7 @@ body {
   padding-left: 0;
 }
 
-.hotel-catalog-filter{
+.hotel-catalog-filter {
   display: grid;
   grid-template-columns: 160px 1fr 150px 2fr 288px 1fr 191px;
   min-height: 160px;
@@ -820,7 +831,7 @@ body {
 }
 
 .catalog-filter-price {
-   grid-column-start: 5;
+  grid-column-start: 5;
 }
 
 .filter-button-form {
@@ -982,12 +993,12 @@ body {
   background-color: #68a2ca;
 }
 
-.catalog-filter-submit:active  {
+.catalog-filter-submit:active {
   background-color: #82b3d3;
 }
 
 .catalog-filter-submit:disabled {
-  background-color:  #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .catalog-filter-reset {
@@ -1010,14 +1021,17 @@ body {
   background-color: transparent;
   opacity: 0.6;
 }
+
 .catalog-filter-reset:focus {
   background-color: transparent;
 }
+
 .catalog-filter-reset:active {
   color: #756157;
   outline: 3px solid #83B3D3;
 }
-.catalog-filter-reset:disabled{
+
+.catalog-filter-reset:disabled {
   opacity: 0.2;
 }
 
@@ -1100,7 +1114,7 @@ body {
   background-color: transparent;
   border-radius: 4px;
   min-height: 50px;
-  }
+}
 
 
 .select-control-text {
@@ -1112,7 +1126,7 @@ body {
   line-height: 21px;
   text-transform: none;
   margin: 0;
-  }
+}
 
 .buttons-view {
   display: flex;
@@ -1150,7 +1164,7 @@ body {
 }
 
 .buttons-view-list {
-    border: 2px solid #e5e5e5;
+  border: 2px solid #e5e5e5;
   background-image: url(../images/icons/icon-list.svg);
   display: inline-block;
   width: 48px;
@@ -1246,12 +1260,15 @@ body {
 .product-card-button-about:hover {
   background-color: #615048;
 }
+
 .product-card-button-about:focus {
   background-color: #615048;
 }
+
 .product-card-button-about:active {
   color: rgba(255, 255, 255, 0.3);
 }
+
 .product-card-button-about:disabled {
   background-color: #E5E5E5;
 }
@@ -1282,12 +1299,12 @@ body {
   background-color: #68a2ca;
 }
 
-.add-button-favorite:active  {
+.add-button-favorite:active {
   background-color: #82b3d3;
 }
 
 .add-button-favoritee:disabled {
-  background-color:  #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 
@@ -1341,7 +1358,7 @@ body {
   background-position-y: center;
   padding: 8px 3px;
   display: flex;
-   width: 35px;
+  width: 35px;
 }
 
 .product-card-cost {
@@ -1380,12 +1397,12 @@ body {
   background-color: #68a2ca;
 }
 
-.pagination-link:active  {
+.pagination-link:active {
   background-color: #82b3d3;
 }
 
 .pagination-link:disabled {
-  background-color:  #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 
@@ -1402,12 +1419,12 @@ body {
   background-color: #f2f2f2;
 }
 
-.pagination-current:active  {
+.pagination-current:active {
   background-color: #f2f2f2;
 }
 
 .pagination-current:disabled {
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 /* Рассылка catalog*/
@@ -1461,10 +1478,10 @@ body {
   background-color: transparent;
 }
 
-.pagination-points:active  {
+.pagination-points:active {
   background-color: transparent;
 }
 
 .pagination-points:disabled {
-  background-color:  transparent;
+  background-color: transparent;
 }
