@@ -141,11 +141,11 @@
             <div class="price-range">
               <ul class="price-range-list">
                 <li class="price-range-input">
-                  <input class="range-input range-input-min" type="number" name="min-value" value="0">
+                  <input class="range-input range-input-min" type="number" name="min-value" value="0" id="range-input-min">
                   <label class="filter-price-range" for="range-input-min">от</label>
                 </li>
                 <li class="price-range-input">
-                  <input class="range-input range-input-max" type="number" name="max-value" value="9000">
+                  <input class="range-input range-input-max" type="number" name="max-value" value="9000" id="range-input-max">
                   <label class="filter-price-range" for="range-input-max">до</label>
                 </li>
               </ul>
@@ -288,7 +288,7 @@
       <h2 class="subscribe-title subscribe-title-catalog">Подпишитесь на рассылку</h2>
       <p class="subscribe-desc subscribe-desc-catalog">Только полезная информация и никакого спама,<br>честное
         бойскаутское!</p>
-      <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="get">
+      <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
         <label class="subscribe-field-label" for="email">
           <span class="visually-hidden">Введите ваш e-mail</span>
           <input class="subscribe-field" id="email" type="email" placeholder="Ваш e-mail" name="email" required>

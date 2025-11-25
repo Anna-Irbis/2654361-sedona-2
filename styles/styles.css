@@ -606,6 +606,7 @@ body {
   padding: 8px;
   justify-content: center;
   border-radius: 4px 4px 4px 4px;
+  user-select: none;
 }
 
 .search-button:hover {
@@ -707,6 +708,7 @@ body {
   border-radius: 0 4px 4px 0;
   flex-grow: 1;
   border: navajowhite;
+  user-select: none;
 }
 
 .button-subscribe:hover {
@@ -1638,24 +1640,30 @@ body {
 }
 
 .product-stars-four {
-  background-image: url("../images/icons/icon-star.svg");
-  background-repeat: repeat-x;
+  background-image: url(../images/icons/icon-star.svg);
+  background-repeat: space;
   background-position-y: center;
-  width: 72px;
+  width: 89px;
+  height: 17px;
+  margin-left: 3px;
 }
 
 .product-stars-three {
-  background-image: url("../images/icons/icon-star.svg");
-  background-repeat: repeat-x;
+  background-image: url(../images/icons/icon-star.svg);
+  background-repeat: space;
   background-position-y: center;
-  width: 52px;
+  width: 66px;
+  height: 17px;
+  margin-left: 3px;
 }
 
 .product-stars-two {
-  background-image: url("../images/icons/icon-star.svg");
-  background-repeat: repeat-x;
+  background-image: url(../images/icons/icon-star.svg);
+  background-repeat: space;
   background-position-y: center;
-  width: 35px;
+  width: 42px;
+  height: 17px;
+  margin-left: 3px;
 }
 
 /* Пагинация */

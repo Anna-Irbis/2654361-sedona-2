@@ -238,26 +238,33 @@
           <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="field-group">
               <label class="modal-form-label" for="arrival-date"><b>Дата заезда:</b></label>
-              <input class="modal-form-field" id="arrival-date" type="text" name="arrival-date" value="27 апреля 2020" placeholder="Укажите дату" required>
+              <input class="modal-form-field" id="arrival-date" type="text" name="arrival-date" value="27 апреля 2020"
+                placeholder="Укажите дату" required>
               <span class="modal-text modal-text-error">Мы не можем отправить вас в прошлое.</span>
             </div>
             <div class="field-group">
               <label class="modal-form-label" for="departure-date"><b>Дата выезда:</b></label>
-              <input class="modal-form-field" id="departure-date" type="text" name="departure-date" value="1 сентября 2023" placeholder="Укажите дату" required>
+              <input class="modal-form-field" id="departure-date" type="text" name="departure-date"
+                value="1 сентября 2023" placeholder="Укажите дату" required>
               <span class="modal-text">На эти даты есть свободные номера. Пока есть.</span>
             </div>
             <div class="modal-form-quantity">
               <label class="modal-form-label" for="adults"><b>Взрослые:</b></label>
               <div class="modal-form-field-wrapper">
                 <button class="modal-form-field-button modal-form-field-minus" type="button">
-                  <svg class="modal-form-field-icon" aria-hidden="true" focusable="false" fill="currentColor" role="img" aria-label="Знак минус." xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20">
-                    <path d="M3.393 9v2h14V9h-14Z"/>
+                  <svg class="modal-form-field-icon" aria-hidden="true" focusable="false" fill="currentColor" role="img"
+                    aria-label="Знак минус." xmlns="http://www.w3.org/2000/svg" width="21" height="20"
+                    viewBox="0 0 21 20">
+                    <path d="M3.393 9v2h14V9h-14Z" />
                   </svg>
                 </button>
-                <input class="modal-form-field-count" id="adults" type="number" name="adults" min="1" value="2" readonly tabindex="-1">
+                <input class="modal-form-field-count" id="adults" type="number" name="adults" min="1" value="2" readonly
+                  tabindex="-1">
                 <button class="modal-form-field-button modal-form-field-plus" type="button">
-                  <svg class="modal-form-field-icon" aria-hidden="true" focusable="false" fill="currentColor" role="img" aria-label="Знак плюс." xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                    <path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z"/>
+                  <svg class="modal-form-field-icon" aria-hidden="true" focusable="false" fill="currentColor" role="img"
+                    aria-label="Знак плюс." xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    viewBox="0 0 20 20">
+                    <path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" />
                   </svg>
                 </button>
               </div>
@@ -268,23 +275,30 @@
                 <span class="visually-hidden">Укажите количество детей от 6 до 18 лет.</span>
                 <div class="tooltip-wrapper">
                   <button class="tooltip" type="button" aria-labelledby="tooltip-label-date">
-                    <svg class="tooltip-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" role="img" aria-label="Знак подсказки." viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M9 4h2v2H9V4Zm2 12H9V7h2v9Z" clip-rule="evenodd"/>
+                    <svg class="tooltip-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      fill="currentColor" role="img" aria-label="Знак подсказки." viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M9 4h2v2H9V4Zm2 12H9V7h2v9Z" clip-rule="evenodd" />
                     </svg>
                   </button>
-                  <p class="tooltip-text" role="tooltip" id="tooltip-label-date">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
+                  <p class="tooltip-text" role="tooltip" id="tooltip-label-date">Укажите количество детей, которые будут
+                    с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
                 </div>
               </div>
               <div class="modal-form-field-wrapper">
                 <button class="modal-form-field-button modal-form-field-minus" type="button">
-                  <svg class="modal-form-field-icon" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Знак минус." width="21" height="20" viewBox="0 0 21 20">
-                    <path d="M3.393 9v2h14V9h-14Z"/>
+                  <svg class="modal-form-field-icon" aria-hidden="true" focusable="false" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Знак минус." width="21" height="20"
+                    viewBox="0 0 21 20">
+                    <path d="M3.393 9v2h14V9h-14Z" />
                   </svg>
                 </button>
-                <input class="modal-form-field-count" id="kids" type="number" name="kids" min="0" value="2" readonly tabindex="-1">
+                <input class="modal-form-field-count" id="kids" type="number" name="kids" min="0" value="2" readonly
+                  tabindex="-1">
                 <button class="modal-form-field-button modal-form-field-plus" type="button">
-                  <svg class="modal-form-field-icon" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Знак плюс." width="20" height="20" viewBox="0 0 20 20">
-                    <path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z"/>
+                  <svg class="modal-form-field-icon" aria-hidden="true" focusable="false" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Знак плюс." width="20" height="20"
+                    viewBox="0 0 20 20">
+                    <path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" />
                   </svg>
                 </button>
               </div>
@@ -294,7 +308,7 @@
         </section>
       </div>
     </div>
-
+    <script src="js/scripts.js"></script>
   </body>
 
 </html>
