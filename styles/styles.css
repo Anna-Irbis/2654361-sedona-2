@@ -284,7 +284,7 @@ body {
 
 .hero {
   color: #fff;
-  background-color: #82b3d3;
+  background-color: #05385a;
   background-image: url("../images/divider.svg"), url("../images/substrate-hero.jpg");
   background-size: auto, cover;
   background-repeat: no-repeat, no-repeat;
@@ -455,7 +455,7 @@ body {
   flex-direction: row;
 }
 
-.advantages-item-full:last-of-type .advantages-img {
+.invert .advantages-img {
   order: -1;
 }
 
@@ -782,6 +782,7 @@ body {
   text-align: center;
   margin: 0;
   padding-right: 22px;
+  max-width: 500px;
 }
 
 .footer-phone:hover {
@@ -898,6 +899,7 @@ body {
   display: grid;
   grid-template-columns: 160px 0.9fr 150px 2fr 288px 1fr 191px;
   min-height: 160px;
+  position: relative;
 }
 
 .catalog-filter-group {
@@ -1002,6 +1004,7 @@ body {
   max-width: 191px;
   padding-top: 55px;
   justify-content: flex-end;
+  position: fixed;
 }
 
 .form-container-left {
@@ -1369,6 +1372,7 @@ body {
   padding: 0;
   list-style-type: none;
   gap: 8px;
+  max-width: 170px;
 }
 
 .buttons-view-tile {
