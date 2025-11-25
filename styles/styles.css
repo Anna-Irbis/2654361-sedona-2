@@ -1687,10 +1687,6 @@ body {
   opacity: 0.3
 }
 
-.pagination-link:disabled {
-  background-color: #e5e5e5;
-}
-
 .pagination-current:hover {
   background-color: #f2f2f2;
 }
@@ -1700,10 +1696,6 @@ body {
 }
 
 .pagination-current:active {
-  background-color: #f2f2f2;
-}
-
-.pagination-current:disabled {
   background-color: #f2f2f2;
 }
 
