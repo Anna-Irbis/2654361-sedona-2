@@ -507,7 +507,7 @@ body {
   min-height: 385px;
   background-color: #ffffff;
   background-position-x: center;
-  background-position-y: 81px;
+  background-position-y: 77px;
   background-repeat: no-repeat;
   text-align: center;
   padding: 183px 85px 81px;
@@ -641,7 +641,7 @@ body {
   padding-bottom: 104px;
   padding-left: 258px;
   padding-right: 258px;
-  margin-top: -1px;
+  margin-top: -7px;
 }
 
 .subscribe-title {
@@ -1459,10 +1459,10 @@ body {
 .product-cards {
   display: grid;
   column-gap: 20px;
-  row-gap: 20px;
+  row-gap: 16px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 36px 36px;
-  padding: 19px 18px 13px 18px;
+  padding: 19px 18px 21px 18px;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
 }
@@ -1515,10 +1515,6 @@ body {
   text-align: center;
   border-radius: 4px;
   text-decoration: none;
-  margin-top: -4px;
-  margin-left: 1px;
-  margin-right: 1px;
-  margin-bottom: 6px;
 }
 
 .product-card-button-about:hover {
@@ -1553,10 +1549,6 @@ body {
   align-items: center;
   border-radius: 4px;
   text-decoration: none;
-  margin-top: -4px;
-  margin-left: 1px;
-  margin-right: 1px;
-  margin-bottom: 6px;
   border: transparent;
 }
 
@@ -1594,10 +1586,6 @@ body {
   align-items: center;
   border-radius: 4px;
   text-decoration: none;
-  margin-top: -4px;
-  margin-left: 1px;
-  margin-right: 1px;
-  margin-bottom: 6px;
   border: transparent;
 }
 
@@ -1635,15 +1623,17 @@ body {
   width: 140px;
   border-radius: 4px 4px 4px 4px;
   margin: 0;
-  padding: 0 3px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: -4px;
   margin-top: 0;
+  align-self: center;
+  padding: 7px 4px;
 }
 
 .product-stars {
   margin: 0;
   text-align: center;
+  align-self: center;
 }
 
 .product-stars-four {
@@ -1683,7 +1673,7 @@ body {
   flex-wrap: wrap;
   padding-left: 70px;
   gap: 8px;
-  margin-bottom: 60px;
+  margin-bottom: 65px;
 }
 
 .pagination-link:hover {
