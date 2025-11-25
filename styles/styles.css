@@ -606,6 +606,7 @@ body {
   padding: 8px;
   justify-content: center;
   border-radius: 4px 4px 4px 4px;
+  border-color: transparent;
 }
 
 .search-button:hover {
@@ -1309,6 +1310,7 @@ body {
   margin-bottom: 40px;
   padding: 0 70px;
   align-items: flex-start;
+  margin-bottom: 35px;
 }
 
 .select-wrapper {
@@ -1460,8 +1462,9 @@ body {
   row-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 36px 36px;
-  padding: 16px;
+  padding: 19px 18px 13px 18px;
   border: 1px solid #e6e6e6;
+  border-radius: 4px;
 }
 
 .product-cards-wrapper {
@@ -1674,7 +1677,7 @@ body {
 
 .pagination {
   margin: 0;
-  padding: 0;
+  padding: 2px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -1719,7 +1722,7 @@ body {
 /* Рассылка catalog*/
 
 .subscribe-catalog {
-  padding-top: 97px;
+  padding-top: 92px;
   color: #000000;
   background-image: none;
   background-color: #ffffff;
