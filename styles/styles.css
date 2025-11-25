@@ -1677,7 +1677,7 @@ body {
 
 .pagination {
   margin: 0;
-  padding: 2px;
+  padding: 6px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
